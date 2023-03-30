@@ -1,0 +1,80 @@
+.page-body {
+	/* position: absolute; */
+	/* width: 100%; */
+	height: 100vh;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+	scroll-behavior: smooth;
+}
+section {
+	width: 100%;
+	height: 100vh;
+	padding-inline: 0.3125rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	scroll-snap-align: start;
+}
+.first-body-section .page-text {
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 300;
+}
+.first-body-section .page-text span {
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+.first-body-section .page-text-continuity {
+	font-size: 1.1rem;
+	text-align: center;
+	font-weight: 300;
+	margin-top: 1.5625rem;
+}
+.second-body-section .general-wrapper {
+	width: 100%;
+	height: 60%;
+	padding-top: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+.second-body-section .general-wrapper .advice-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 7px;
+}
+.second-body-section .general-wrapper .advice-wrapper .advice-book {
+	font-size: 2.5rem;
+}
+.second-body-section .general-wrapper .advice-wrapper .advice-chapter {
+	font-size: 1.9rem;
+}
+.second-body-section .general-wrapper .advice-wrapper p .advice-verse {
+	font-size: 1.4rem;
+}
+.second-body-section .general-wrapper .advice-wrapper .advice-text {
+	text-align: center;
+}
+.second-body-section .button-wrapper button {
+	cursor: pointer;
+}
+@media (min-width: 768px) {
+	.second-body-section .general-wrapper {
+		width: 100%;
+		height: 100%;
+		padding-block: 30%;
+	}
+}
+@media (min-width: 1024px) {
+	.second-body-section .general-wrapper {
+		width: 100%;
+		height: 100%;
+		padding-block: 20%;
+	}
+}

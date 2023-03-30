@@ -1,0 +1,37 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap');
+/* *{
+	outline: 1px solid black;
+} */
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url(../assets/sky.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.link {
+	color: black;
+	font-weight: 300;
+	text-decoration: none;
+	border: none;
+	border-radius: 15px;
+	padding: 5px 10px;
+}
+.sacred {
+	padding: 10px 15px;
+	color: rgb(185, 95, 10);
+	font-weight: 500;
+	text-transform: uppercase;
+	box-shadow: 0px 4px 10px rgba(255, 205, 96, 0.9099307159353349);
+	background: rgb(253, 252, 29);
+	background: radial-gradient(
+		circle,
+		rgba(253, 252, 29, 0.8337182448036952) 3%,
+		rgba(255, 205, 96, 0.9099307159353349) 100%,
+		rgba(252, 150, 69, 0.8337182448036952) 100%
+	);
+}
